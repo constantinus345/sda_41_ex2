@@ -1,0 +1,20 @@
+Optional: incarcati rezolvarile pe github si dati linkul pe slack
+
+1. Scrieti o functie care primeste ca parametru un numar si 
+returneaza un dictionar cu cheile "patrat" si "cub" si valorile respective
+
+2. Scrieti o functie care genereaza o lista cu primele n patrate perfecte
+(generators)
+
+3. Scrieti o functie lambda care calculeaza radicalul unui numar rotunjit la 2 zecimale
+
+4. Scrieti o functie care creaza o lista de dictionare cu cheile "numar", "patrat", "cub" si valorile respective pentru primele n numere naturale
+4.1. Stocati aceste dictionare intr-un fisier json
+4.2. si intr-un fisier csv
+4.3. calculati cat timp a durat executia (hint: time.perf_counter() de ex)
+
+5. Validati un email folosind regex string@string.string
+
+6. scrieti o functie care returneaza tipul de date al unui obiect. Apelati aceasta functie intr-un alt fisier.
+
+7. Scrieti o functie care imparte doua numere. Daca numitorul este 0, atunci trebuie sa aruncati o exceptie cu textul "Aoleu".

@@ -7,7 +7,8 @@ import cv2
 #si sa dati o cale executabila
 #pip install opencv-python pentru cv2
 #cv2 ne ajuta sa citim imaginea, pytesseract sa extragem textul
-
+import pandas
+#pip install pandas, pentru a procesa tabele
 
 def extrage_text_din_imagine(fisier_imagine, folder = configs.Folder_images):
     imagine = cv2.imread(f'{configs.Folder_images}/{fisier_imagine}')
@@ -68,6 +69,7 @@ def lista_de_json_cu_produsele(folder=configs.Folder_images):
 lisx = lista_de_json_cu_produsele()
 print(len(lisx))
 print(lisx[0])
+print(type(lisx[0]))
 #pentru ca variabila din functie are un default, daca nu ii dam parametru, va lua valoarea default
 #sau putem sa-i dam parametru, si sa ii dam alta valoare
 
@@ -77,3 +79,6 @@ print(lisx[0])
 
 # df = pd.DataFrame.from_records(data,index=['1', '2'])
 # print(df)
+
+tabel = pandas.DataFrame.from_records(lisx)
+tabel.to_excel('tabel.xlsx')
