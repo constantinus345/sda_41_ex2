@@ -7,3 +7,9 @@ Comparam evolutia pretului in timp
 
 Am putea sa-l trimitem pe email zilnic
 
+______
+Cateva comenzi de git
+git add --all @ adauga tot ce e in folderul curent in repozitorul git !localizator
+git commit -am "mesaj" @ salveaza modificarile in repozitorul git !localizator
+git push @ trimite modificarile de pe repozitorul git local pe serverul de github (sau alt website)
+
