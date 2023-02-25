@@ -1,0 +1,9 @@
+Vrem sa vedem pretul la combustibil in Romania
+
+3 statii peco
+
+Comparam pretul cel mai mic pentru combustibilul ales de client
+Comparam evolutia pretului in timp
+
+Am putea sa-l trimitem pe email zilnic
+

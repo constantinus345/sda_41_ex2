@@ -1,0 +1,1 @@
+adresa_text = '#WP0'
