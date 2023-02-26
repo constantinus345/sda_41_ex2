@@ -21,3 +21,19 @@ for tabel in tabele:
     print(tabel.columns)
     
 print(tabele[0])
+
+3----------------------
+Faceti un joc prin care utilizatorul trebuie sa ghiceasca
+literele unui cuvant din x incercari
+
+4----------------------
+Creati un program care amesteca un sir de caractere
+De exemplu: "Ana are mere" devine "Aa nrae emre" sau ceva similar. 
+
+5----------------------
+Creati un program de "criptare" simplu, care in loc de 
+litere sa afiseze alt sir de caractere corespunzatoare. 
+Puteti inlocui doar cateva litere. De exemplu daca inlocuiesc 
+A = 1_2_x_.
+B = 2_3_y_!
+Atunci ARBC devine 1_2_x_.R2_3_y_!C
