@@ -1,0 +1,4 @@
+#Doua proiecte de accesare APIs
+- google translate 
+
+- open ai (chat gpt)
